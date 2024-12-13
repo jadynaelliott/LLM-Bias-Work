@@ -4,7 +4,8 @@ Character Network Builder Code
 This Python script extracts a chronological list of characters from a scene in a script, builds a directed interaction network using the consecutive method (Agarwal et al. 2015), and visualizes the network using matplotlib and networkx.
 
 The script's features: 
-* Identifies character names based on script lines formatted as Character Name: "Dialogue".
+* Identifies character names based on the script, formatted as:
+*   Character Name: "Dialogue".
 * Creates a directed graph where nodes represent characters and directed edges represent consecutive dialogue interactions.
 * Displays the interaction network for the scene using MatPlotLib.
 
