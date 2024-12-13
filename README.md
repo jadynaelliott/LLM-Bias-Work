@@ -5,7 +5,7 @@ This Python script extracts a chronological list of characters from a scene in a
 
 The script's features: 
 * Identifies character names based on the script, formatted as:
-*   Character Name: "Dialogue".
+  * Character Name: "Dialogue".
 * Creates a directed graph where nodes represent characters and directed edges represent consecutive dialogue interactions.
 * Displays the interaction network for the scene using MatPlotLib.
 
